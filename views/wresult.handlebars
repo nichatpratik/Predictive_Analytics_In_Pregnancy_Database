@@ -1,0 +1,9 @@
+<h2 class="page-header">Results</h2>
+{{#if errors}}
+      {{#each errors}}
+        <div class="alert alert-danger">{{msg}}</div>
+      {{/each}}
+{{/if}}
+{{#if bw}}
+        <div class="alert alert-success"><p style="color:black"><b>Predicted Weight of child: <b></p>{{bw}}</div>
+{{/if}}
